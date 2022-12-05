@@ -1,0 +1,36 @@
+main {
+    background-color: gainsboro;
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+  }
+
+
+h4:hover {
+  cursor: pointer;  
+}
+
+
+.container {
+    display: flex;
+}
+
+.containerarray {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 400px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
